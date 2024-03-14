@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #000;
+    background-color: #fff;
+}
+
+/* Conteiner
+======================== */
+.conteiner{
+    width: 100%;
+    max-width: 1174px;
+    margin: 0 auto;
+}
+/* Header
+======================== */
+.header{}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.headre__logo{}
+
+.nav{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.header__nav__link{
+    margin-left: 30px;
+    font-weight: 600;
+}
+.header__nav__link:first-child{
+    margin-left: 0;
+}
+.header__nav__link:hover{
+    color: #f25822;
+    text-decoration: underline;
+}
+
+/* Mine
+==================== */
+.main__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__left{
+    height: 375px;
+    margin-right: 35px;
+}
+
+.main__lefr__title{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.main__left__content{
+    font-size: 20px;
+    font-weight: 400;
+    color: #888;
+    line-height: 140%;
+    margin-bottom: 32px;
+}
+
+.main__left__btn{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main__right{
+    height: 375px;
+    margin-left: 35px;
+}
+/* Button
+================= */
+
+.main__btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 34px;
+    margin-right: 20px;
+
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #888;
+
+    transition: background 0.25s ease;
+
+}
+
+.btn--red{
+    background-color: #fff;
+    
+}
+.btn--red:hover{
+    background-color:#f25822;
+    color: #fff;
+}
+
+/* Footer
+================================= */
+.footer__intro{
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}

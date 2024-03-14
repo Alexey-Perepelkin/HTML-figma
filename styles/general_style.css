@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(../fonts/Gilroy-Bold.woff2);
+}
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(../fonts/Gilroy-Medium.woff2);
+}
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url(../fonts/Gilroy-Regular.woff2);
+}
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url(../fonts/Gilroy-Semibold.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+body{
+    scroll-behavior: smooth;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: black;
+    background:#fff;
+    }
+
+a{
+color: black;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+.conteiner{
+    width: 100%;
+    max-width: 1174px ;
+    margin: 0 auto;
+}
