@@ -24,6 +24,7 @@ body{
 .link{
     font-family: "Inter", sans-serif;
     font-size: 14px;
+    font-weight: 400;
     color: #000;
 }
 .title{
@@ -177,6 +178,7 @@ body{
 .features__inner{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 100px 0;
 }
 .features__item{
@@ -189,13 +191,17 @@ body{
 .features__icom{
     margin-bottom: 25px;
 }
+.item--shadow{
+    padding: 40px 35px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
 .item__subtitleH3{
     margin-bottom: 25px;
 }
 .item__paragraph{
     margin-bottom:  25px;
 }
-.paragraph--semiBold{
+.link--semiBold{
     font-weight: 600 ;
     color: black;
     margin-bottom: 0;
