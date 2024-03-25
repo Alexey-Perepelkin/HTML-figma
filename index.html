@@ -1,65 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="./styles/style.css" />
-    <title>Homework Figma</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="conteiner">
-        <div class="header__inner">
-          <div class="headre__logo"><img src="./images/logo/logo.png" alt="Логотип" /></div>
-          <nav class="nav">
-            <a class="header__nav__link" href="#">Home</a>
-            <a class="header__nav__link" href="#">About Us</a>
-            <a class="header__nav__link" href="#">Services</a>
-            <a class="header__nav__link" href="#">Features</a>
-            <a class="header__nav__link" href="#">Team</a>
-            <a class="header__nav__link" href="#">Blog</a>
-            <a class="header__nav__link" href="#">Contact</a>
-          </nav>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./styles/style.css" />
+  <title>Homework Figma</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="conteiner">
+      <div class="header__inner">
+        <div class="logo headre__logo"><img src="./images/logo/logo.png" alt="Логотип" /></div>
+        <nav class="nav">
+          <a class="link header__link" href="https://vk.ru" target="_blank">Home</a>
+          <a class="link header__link" href="#">About Us</a>
+          <a class="link header__link" href="#">Services</a>
+          <a class="link header__link" href="#">Features</a>
+          <a class="link header__link" href="#">Team</a>
+          <a class="link header__link" href="#">Blog</a>
+          <a class="link header__link" href="#">Contact</a>
+        </nav>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <main class="main">
+  <main class="main">
+    <section class="home">
       <div class="conteiner">
-        <div class="main__inner">
-          <div class="main__left">
-            <h1 class="main__lefr__title">SEO & Digital Marketing For Your Website.</h1>
-            <p class="main__left__content">
+        <div class="home__inner">
+          <div class=" home__text">
+            <h1 class="title home__title">SEO & Digital Marketing For Your Website.</h1>
+            <p class="paragraph home__paragraph paragraph--fontSize">
               Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.Lo
             </p>
-            <div class="main__left__btn">
+            <div class="home_btn ">
               <!-- <a class="main__btn btn--red" href="#">Start Now</a>
-              <a class="main__btn btn--red" href="#">Watch Video</a> -->
-              <button class="main__btn btn--red" type="button">Start Now</button>
-              <button class="main__btn btn--red" type="button">Watch Video</button>
+                <a class="main__btn btn--red" href="#">Watch Video</a> -->
+              <button class="btn home__btn btn--red" type="button">Start Now</button>
+              <button class="btn home__btn btn--red" type="button">Watch Video</button>
             </div>
           </div>
-          <div class="main__right">
-            <img src="./images/1.png" alt="Картинка" />
+          <div class="picture home__picture">
+            <img class="img " src="./images/home/1.png" alt="Картинка" />
           </div>
         </div>
       </div>
-    </main>
+    </section>
 
-    <footer class="footer">
+    <section class="brandLogo">
       <div class="conteiner">
-        <div class="footer__intro">
-          <a href="#"><img src="./images/ico/1.svg" alt="Liua" /></a>
-          <a href="#"><img src="./images/ico/2.svg" alt="kanda" /></a>
-          <a href="#"><img src="./images/ico/3.svg" alt="amara" /></a>
-          <a href="#"><img src="./images/ico/4.svg" alt="aven" /></a>
-          <a href="#"><img src="./images/ico/5.svg" alt="HEXLAB" /></a>
+        <div class="brandLogo__inner">
+          <a class="linkImg brendLogo__linkImg" href="#"><img src="./images/brandLogo/1.svg" alt="Liua" /></a>
+          <a class="linkImg brendLogo__linkImg" href="#"><img src="./images/brandLogo/2.svg" alt="kanda" /></a>
+          <a class="linkImg brendLogo__linkImg" href="#"><img src="./images/brandLogo/3.svg" alt="amara" /></a>
+          <a class="linkImg brendLogo__linkImg" href="#"><img src="./images/brandLogo/4.svg" alt="aven" /></a>
+          <a class="linkImg brendLogo__linkImg" href="#"><img src="./images/brandLogo/5.svg" alt="HEXLAB" /></a>
         </div>
       </div>
-    </footer>
-  </body>
+    </section>
+
+    <section class="about">
+      <div class="conteiner">
+        <div class=" about__inner">
+          <div class=" about__text">
+            <h2 class="subtitle about__subtitle">Perfect Solution For
+              Your Business</h2>
+            <p class="paragraph about__paragraph">
+              Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business
+              applications through revolutionary catalysts for chang the Seamlessly underwhelm optimal testing
+              procedures.
+            </p>
+            <div class=" about_btn ">
+              <button class="btn  about__btn btn--red" type="button">Learn More</button>
+            </div>
+          </div>
+          <div class="picture  about__picture">
+            <img class="img " src="./images/about/1.png" alt="Картинка" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="conteiner">
+        <div class="features__inner">
+          <!-- <div class="features__false false--shadow" > -->
+          <div class="item features__item item--shadow">
+            <img class="features__icom" src="./images/featurses/Icon-01.svg" alt="Картинка">
+            <h3 class="subtitleH3 item__subtitleH3 ">Grow Your Business</h3>
+            <div class="wrap">
+              <p class="paragraph item__paragraph">Leverage agile frameworks to provide a robust synopsis for high level
+                overviews.</p>
+            </div>
+            <a class="link features__link link--semiBold" href="#"> Read More...</a>
+          </div>
+          <!-- </div> -->
+          <!-- <div class="features__false"> -->
+          <div class="item features__item item--shadow">
+            <img class="features__icom" src="./images/featurses/Icon-02.svg" alt="Картинка">
+            <h3 class="subtitleH3 item__subtitleH3 ">Get Quality Ieads</h3>
+            <diw class="wrap">
+              <p class="paragraph item__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nostrum
+                nam quas dignissimos similique animi numquam, odit ipsa expedita ullam saepe itaque ab repellendus totam
+                recusandae ratione doloribus fugit assumenda in aliquam fugiat! Magni debitis aliquid ab sed iure
+                doloribus id sint alias eveniet ducimus, perferendis amet et odit, nisi dolores facilis totam
+                repudiandae ea veniam expedita ut rerum nesciunt. Quos eveniet illo possimus soluta id. Corrupti quos,
+                ab dolor et at eaque voluptatem veniam eos voluptates quibusdam libero. Esse veniam corrupti repellat.
+                Enim corrupti iste laudantium sint obcaecati non natus animi minima? Quia optio minus quo. Nisi,
+                explicabo porro?</p>
+            </diw>
+            <a class="link features__link link--semiBold " href="#">Read More...</a>
+          </div>
+          <!-- </div> -->
+          <!-- <div class="features__false false--shadow"> -->
+          <div class="item features__item item--shadow">
+            <img class="features__icom" src="./images/featurses/Icon-03.svg" alt="Картинка">
+            <h3 class="subtitleH3 item__subtitleH3 ">Drive More Sales</h3>
+            <div class="wrap">
+              <p class="paragraph item__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nostrum
+                nam quas dignissimos similique animi numquam, odit ipsa expedita ullam saepe itaque ab repellendus totam
+                recusandae ratione doloribus fugit assumenda in aliquam fugiat! Magni debitis aliquid ab sed iure
+                doloribus id sint alias eveniet ducimus, perferendis amet et odit, nisi dolores facilis totam
+                repudiandae ea veniam expedita ut rerum nesciunt. Quos eveniet illo possimus soluta id. Corrupti quos,
+                ab dolor et at eaque voluptatem veniam eos voluptates quibusdam libero. Esse veniam corrupti repellat.
+                Enim corrupti iste laudantium sint obcaecati non natus animi minima? Quia optio minus quo. Nisi,
+                explicabo porro?</p>
+            </div>
+            <a class="link features__link link--semiBold " href="#">Read More...</a>
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="conteiner">
+        <div class="services__heading">
+          <h2 class="subtitle services__subtitle">Why You Should Choose Us.</h2>
+          <p class="paragraph services__paragraph">Distinctively exploit optimal alignments for intuitive bandwidth.
+            Quickly coordinate e-business
+            applications through revolutionary catalysts.</p>
+        </div>
+        <div class="wrapItem">
+          <div class="item services__item itemService--shadow">
+            <img class="services__img" src="./images/services/01.png" alt="Картинка">
+            <h3 class="subtitleH3 item__subtitleH3 ">Keyword Research</h3>
+            <div class="wrap">
+              <p class="paragraph item__paragraph">Business applications through revolutionary catalysts for chang the
+                Seamlessly underwhelm dures.</p>
+            </div>
+            <div class=" services_btn ">
+              <button class="btn  services__btn btn--red" type="button">Learn More</button>
+            </div>
+          </div>
+          <div class="item services__item itemService--shadow">
+            <img class="services__img" src="./images/services/02.png" alt="Картинка">
+            <h3 class="subtitleH3 item__subtitleH3 ">Seo Optimazadion</h3>
+            <div class="wrap">
+              <p class="paragraph item__paragraph">Business applications through revolutionary catalysts for chang the
+                Seamlessly underwhelm dures.</p>
+            </div>
+            <div class=" services_btn ">
+              <button class="btn  services__btn btn--red" type="button">Learn More</button>
+            </div>
+          </div>
+          <div class="item services__item itemService--shadow">
+            <img class="services__img" src="./images/services/03.png" alt="Картинка">
+            <h3 class="subtitleH3 item__subtitleH3 ">Social Marketing</h3>
+            <div class="wrap">
+              <p class="paragraph item__paragraph">Business applications through revolutionary catalysts for chang the
+                Seamlessly underwhelm dures.</p>
+            </div>
+            <div class=" services_btn ">
+              <button class="btn  services__btn btn--red" type="button">Learn More</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="wwd">
+      <div class="conteiner">
+        <div class="wwd__item">
+          <div class="wwd__photo">
+            <img class="wwd__img" src="./images/whatWeDo/01.png" alt="picture">
+          </div>
+          <div class="wwd__content">
+            <h2 class="subtitle wwd__subtitle">You may ask what
+              SEO & why do you need it?</h2>
+            <p class="paragraph wwd__paragraph">Distinctively exploit optimal alignments for intuitive bandwidth.
+              Quickly coordinate e-business applications through revolutionary.</p>
+            <div class="block">
+              <div class="block__item  block--shadow">
+                <img src="./images/whatWeDo/ico/01.svg" alt="ico1">
+                <div class="block__content">
+                  <h3 class="subtitleH3 block__subtitleH3">Social Media Marketing</h3>
+                  <p class="paragraph block__paragraph">Business applications through revolutionary catalysts for chang
+                    the Seamlessly underwhelm dures.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="block__item block--shadow">
+              <img src="./images/whatWeDo/ico/02.svg" alt="ico2">
+              <div class="block__content">
+                <h3 class="subtitleH3 block__subtitleH3">Email Marketing</h3>
+                <p class="paragraph block__paragraph">Business applications through revolutionary catalysts for chang
+                  the Seamlessly underwhelm dures.</p>
+              </div>
+            </div>
+
+
+            <div class="block__item block--shadow">
+              <img src="./images/whatWeDo/ico/03.svg" alt="ico3">
+              <div class="block__content">
+                <h3 class="subtitleH3 block__subtitleH3">SEO Optimization</h3>
+                <p class="paragraph block__paragraph">Business applications through revolutionary catalysts for chang
+                  the Seamlessly underwhelm dures.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="fanfact">
+      <div class="conteiner">
+        <div class="fanfact__inner">
+          <div class="fanfact__item">
+            <h2 class="subtitle subtitle--fontSize">95</h2>
+            <p class="paragraph paragraph--fontStyle">Happy Clients</p>
+          </div>
+          <div class="fanfact__item"> <img src="./images/fanfact/01.png" alt="точка">
+          </div>
+          <div class="fanfact__item">
+            <h2 class="subtitle subtitle--fontSize">115</h2>
+            <p class="paragraph paragraph--fontStyle">Project Done</p>
+          </div>
+          <div class="fanfact__item"> <img src="./images/fanfact/02.png" alt="точка">
+          </div>
+          <div class="fanfact__item">
+            <h2 class="subtitle subtitle--fontSize">8+</h2>
+            <p class="paragraph paragraph--fontStyle">Years Of Experince
+          </div>
+          <div class="fanfact__item"> <img src="./images/fanfact/03.png" alt="точка">
+          </div>
+          <div class="fanfact__item">
+            <h2 class="subtitle subtitle--fontSize">12</h2>
+            <p class="paragraph paragraph--fontStyle">National Awards</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="mailBox">
+      <div class="conteiner">
+        <div class="mail__inner">
+          <div class="mailBox__content">
+            <div>
+              <h2 class="subtitle mailBox__subtitle">Check Your Website Speed </h2>
+            </div>
+            <div>
+              <p class="paragraph mailBox__paragraph">Distinctively exploit optimal alignments for intuitive bandwidth.
+                Quickly coordinate e-business through revolutionary.</p>
+            </div>
+            <div class="mailBox__button">
+              <div class="dual mailBox__dual">
+                <button class="btnDual mailBox__btnDual btnDual--left" type="button">Web URL</button><button class="btnDual mailBox__btnDual btnDual--rigth" type="button">Email Address</button>
+                </div>
+                <button class="btn mailBox__btn btn--red" type="button">Learn More</button>
+              
+            </div>
+          </div>
+          <div class="mailBox__img">
+            <img src="./images/mailBox/01.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="plans">
+      <div class="conteiner">
+        <div class="ourPlans">
+          <h2 class="subtitle plans__subtitle">Our Plans</h2>
+          <p class="paragraph plans__paragraph">Choose the right SEO for you</p>
+        </div>
+        <div class="plans__block">
+          <div class="pricing pricing--shadow">
+            <h4 class="subtitleH4 subtitleH4--red">Plus</h4>
+            <p><span class="top">$</span><span class="bold">30</span>/mounth</p>
+            <p class="paragraph ">50GB Bandwidth
+            </p>
+            <p class="paragraph ">Business & Financ Analysing
+
+            </p>
+            <p class="paragraph ">24 Hour Support
+
+            </p>
+            <p class="paragraph ">Customer Managemet
+            </p>
+            <button class="btn plans__btn btn--red" type="button">Get Started</button>
+          </div>
+        
+        <div class="pricing pricing--shadow">
+          <h4 class="subtitleH4 subtitleH4--red">Beginer</h4>
+          <p><span class="top">$</span><span class="bold">55</span>/mounth</p>
+          <p class="paragraph ">50GB Bandwidth
+          </p>
+          <p class="paragraph ">Business & Financ Analysing
+
+          </p>
+          <p class="paragraph ">24 Hour Support
+
+          </p>
+          <p class="paragraph ">Customer Managemet
+          </p>
+          <button class="btn plans__btn btn--red" type="button">Get Started</button>
+        </div>
+      
+      <div class="pricing pricing--shadow">
+        <h4 class="subtitleH4 subtitleH4--red">Advanced</h4>
+        <p><span class="top">$</span><span class="bold">129</span>/mounth</p>
+        <p class="paragraph ">50GB Bandwidth
+        </p>
+        <p class="paragraph ">Business & Financ Analysing
+
+        </p>
+        <p class="paragraph ">24 Hour Support
+
+        </p>
+        <p class="paragraph ">Customer Managemet
+        </p>
+        <button class="btn plans__btn btn--red" type="button">Get Started</button>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+
+    </section>
+    <section class="team"></section>
+    <section class="testimonials"></section>
+
+    <section class="blogPost"></section>
+
+  </main>
+
+  <footer class="footer"></footer>
+</body>
+
 </html>
