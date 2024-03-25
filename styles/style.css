@@ -242,6 +242,7 @@ body {
   margin-left: 20px;
   background: #fff;
   cursor: pointer;
+
 }
 .itemService--shadow:hover{
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
@@ -279,6 +280,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 25px 25px;
+
   cursor: pointer;
 }
 .block--shadow:hover {
